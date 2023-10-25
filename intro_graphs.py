@@ -23,19 +23,16 @@ class MatrixGraph:
         '''
         self.matrix = matrix
 
-    def run_bfs(self, s: int, v: int) -> bool:
+    def run_bfs(self, s: tuple, v: tuple) -> bool:
         '''Runs BFS on the Graph object. Returns True if s reaches v, False otherwise.
         Implementation Notes: Start from s, go one vertex away at a time until all are visited
             Base Cases:
             Logic:
         Runtime: 
         '''
-        visited = []
+        pass
 
-        while len(visited) < len(self.matrix):
-            pass
-
-    def run_dfs(self, s: int, v: int) -> bool:
+    def run_dfs(self, s: tuple, v: tuple) -> bool:
         '''Runs DFS on the Graph object. Returns True if s reaches v, False otherwise.
         Implementation Notes:
             Base Cases:
@@ -45,8 +42,8 @@ class MatrixGraph:
         '''
         pass
 
-    def count_paths(self, v: int) -> int:
-        '''Counts the number of paths on the Graph object.
+    def count_paths(self) -> int:
+        '''Counts the number of paths on the Graph object from the top left to bottom right.
         Implementation Notes:
             Base Cases:
             Recursive Relation:
@@ -55,7 +52,7 @@ class MatrixGraph:
         '''
         pass
 
-    def sort_degree(self, s: int) -> list[int]:
+    def sort_degree(self, s: int) -> list[tuple]:
         '''Returns a list of tuples representing vertices
         as integers on the matrix by ascending order of the
         degree of the vertex in the graph from a source
