@@ -31,14 +31,14 @@ class MatrixGraph:
         Runtime: 
         '''
         pass
-
+    
     def run_dfs(self, s: tuple, v: tuple) -> bool:
         '''Runs DFS on the Graph object. Returns True if s reaches v, False otherwise.
-        Implementation Notes:
-            Base Cases:
-            Recursive Relation:
-            Logic:
-        Runtime: 
+        Implementation Notes: Recursively search for path starting at s.
+            Base Cases: Reach an edge/blocked area/visited 
+            Recursive Relation: Irrelevant
+            Logic: Recursively search for path starting at s, avoiding edges, blocked, visited.
+        Runtime: O(4^n)
         '''
         pass
 
