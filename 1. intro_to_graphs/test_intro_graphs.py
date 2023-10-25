@@ -1,6 +1,7 @@
 from intro_graphs import MatrixGraph
 import pytest
 # Test cases
+# run pytest -rP in cmd line
 
 @pytest.fixture
 def graph1():
