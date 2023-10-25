@@ -4,13 +4,14 @@ class TreeNode:
         self.val = val
         self.left = None
         self.right = None
+        self.height = 0
 
 class BST:
     def __init__(self, val: int):
         '''Creates a binary search tree given a value as the root.'''
         self.root = TreeNode(val)
 
-    def search(self, root, val: int):
+    def search(self, val: int):
         '''Return True if val exists in the BST, False otherwise.'''
         pass
 
@@ -29,5 +30,15 @@ class BST:
         '''
         pass
 
-    def run_bfs(self):
+    def run_bfs(self) -> list[int]:
+        '''Runs a breadth first search, returning a list of the order
+        in which nodes were visited.'''
+        pass
+
+    def calculate_max_depth(self) -> int:
+        '''Returns the maximum depth of the tree'''
+        pass
+
+    def calculate_heights(self):
+        '''Calculate and set the height of each node in the tree.'''
         pass
