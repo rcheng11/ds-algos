@@ -1,4 +1,4 @@
-
+from typing import Tuple
 
 '''
 Design a matrix implementation of a Graph with the functions
@@ -68,14 +68,15 @@ class MatrixGraph:
         '''
         pass
 
-    # def sort_degree(self, s: tuple) -> list[tuple]:
-    #     '''Returns a list of tuples representing vertices
-    #     as integers on the matrix by ascending order of the
-    #     degree of the vertex in the graph from a source
-    #     vertex s.
-    #     Implementation Notes: 
-    #         Base Cases:
-    #         Logic:
-    #     Runtime: 
-    #     '''
-    #     pass
+    def sort_degree(self, s: Tuple) -> list[list[Tuple]]:
+        '''Returns a list of lists of tuples representing vertices
+        as integers on the matrix by ascending order of the
+        degree of the vertex in the graph from a source
+        vertex s. Each vertex n degrees from s is grouped 
+        in a list.
+        Implementation Notes: 
+            Base Cases:
+            Logic:
+        Runtime: 
+        '''
+        pass
